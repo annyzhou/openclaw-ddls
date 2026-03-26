@@ -1,0 +1,17 @@
+{
+  "name": "dclaw",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deploy and chat with DClaw on Dedalus Cloud Services",
+  "scripts": {
+    "start": "npx tsx openclaw.ts",
+    "chat": "npx tsx chat.ts"
+  },
+  "dependencies": {
+    "dedalus-labs": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest"
+  }
+}
