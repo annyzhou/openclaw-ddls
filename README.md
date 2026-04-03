@@ -1,8 +1,8 @@
-# Running OpenClaw on Dedalus Cloud Services
+# Running OpenClaw on Dedalus Machines
 
 ## Overview
 
-[OpenClaw](https://docs.openclaw.ai) is an open-source, self-hosted AI assistant with a WebSocket gateway, 50+ messaging integrations, multi-agent routing, and a browser Control UI. This spec covers deploying and operating it on [Dedalus Cloud Services](https://dev.dcs.dedaluslabs.ai) machines -- isolated Linux microVMs (Ubuntu 24.04) with persistent storage.
+[OpenClaw](https://docs.openclaw.ai) is an open-source, self-hosted AI assistant with a WebSocket gateway, 50+ messaging integrations, multi-agent routing, and a browser Control UI. This spec covers deploying and operating it on [Dedalus Machines](https://dev.dcs.dedaluslabs.ai) -- isolated Linux microVMs (Ubuntu 24.04) with persistent storage.
 
 Everything runs through the **Dedalus SDK execution API** -- no SSH required.
 
